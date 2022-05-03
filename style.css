@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(236, 45, 45);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#tchat {
+    background-color: white;
+    opacity: 0.8;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    border: 4px rgb(56, 22, 209) solid;
+    overflow: auto;
+}
+.line {
+    border-bottom: 1px rgb(80, 80, 80) solid;
+    padding: 4px;
+    text-align: left;
+    color: rgb(40, 40, 40);
+}
+#message{
+    width:250px
+}
+#client{
+    color: black;
+    padding: auto;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Tchat avec Socket.IO</title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" title="feuille de style principale">
+    <script type="text/javascript" src="client.js" defer></script>
+</head>
+<body>
+    <h1>Tchat avec Socket.IO version2</h1>
+    <div id="tchat"></div>
+    <form onsubmit="return (envoiMessage());">
+        <b>Message : </b>
+        <input type="text" name="message" id="message"/>
+        <input type="submit" value="Envoyer" />
+    </form>
+    <div id="client"></div>
+</body>
+</html>
